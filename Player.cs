@@ -30,13 +30,11 @@ namespace RealisticBlood
                 
                 if (Main.dayTime)
                 {
-                    Main.NewText(Utils.Clamp((Math.Abs(bloodColor - 1)), 0f, red));
                     drawInfo.bodyColor = new Color(Utils.Clamp((Math.Abs(bloodColor - 1)), 0f, red), Utils.Clamp((Math.Abs(bloodColor - 1)), 0f, green), Utils.Clamp((Math.Abs(bloodColor - 1)), 0f, blue));
                     drawInfo.legColor = new Color(Utils.Clamp((Math.Abs(bloodColor - 1)), 0f, red), Utils.Clamp((Math.Abs(bloodColor - 1)), 0f, green), Utils.Clamp((Math.Abs(bloodColor - 1)), 0f, blue));
                     drawInfo.faceColor = new Color(Utils.Clamp((Math.Abs(bloodColor - 1)), 0f, red), Utils.Clamp((Math.Abs(bloodColor - 1)), 0f, green), Utils.Clamp((Math.Abs(bloodColor - 1)), 0f, blue));
                 }
                 else {
-                    Main.NewText("no");
                     drawInfo.bodyColor = new Color(Utils.Clamp(bloodColor, red, 1f), green, blue);
                     drawInfo.legColor = new Color(Utils.Clamp(bloodColor, red, 1f), green, blue);
                     drawInfo.faceColor = new Color(Utils.Clamp(bloodColor, red, 1f), green, blue);
