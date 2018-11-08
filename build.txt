@@ -1,0 +1,3 @@
+author = valkyrienyanko
+version = 0.1
+displayName = Realistic Blood

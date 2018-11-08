@@ -1,0 +1,1 @@
+Getting hit by a projectile or NPC looks alot more realistic now.
