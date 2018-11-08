@@ -1,4 +1,4 @@
 author = valkyrienyanko
-version = 0.1
+version = 0.2
 displayName = Realistic Blood
 homepage = https://discord.gg/thMupbv
